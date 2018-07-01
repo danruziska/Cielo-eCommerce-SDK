@@ -1,0 +1,28 @@
+﻿{
+  "MerchantOrderId": "2014111706",
+  "Customer": {
+    "Name": "Comprador crédito completo",
+    "Identity": "11225468954",
+    "IdentityType": "CPF",
+    "Email": "compradorteste@teste.com",
+    "Birthdate": "1991-01-02",
+    "Address": {
+      "Street": "Rua Teste",
+      "Number": "123",
+      "Complement": "AP 123",
+      "ZipCode": "12345987",
+      "City": "Rio de Janeiro",
+      "State": "RJ",
+      "Country": "BRA"
+    },
+    "DeliveryAddress": {
+      "Street": "Rua Teste",
+      "Number": "123",
+      "Complement": "AP 123",
+      "ZipCode": "12345987",
+      "City": "Rio de Janeiro",
+      "State": "RJ",
+      "Country": "BRA"
+    }
+  }
+}
