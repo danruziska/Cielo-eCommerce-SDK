@@ -1,0 +1,18 @@
+﻿{
+  "MerchantOrderId": "12345",
+  "Customer": {
+    "Name": "Danilo Correia Ruziska"
+  },
+  "Payment": {
+    "Type": "CreditCard",
+    "Amount": 15700,
+    "Installments": 1,
+    "CreditCard": {
+      "CardNumber": "0000000000000001",
+      "Holder": "Danilo C Ruziska",
+      "ExpirationDate": "12/2026",
+      "SecurityCode": "123",
+      "Brand": "Visa"
+    }
+  }
+}

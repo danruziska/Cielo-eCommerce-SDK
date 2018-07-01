@@ -1,0 +1,11 @@
+﻿{
+  "MerchantOrderId": "12345",
+  "Customer": {
+    "Name": "Danilo Correia Ruziska"
+  },
+  "Payment": {
+    "Type": "CreditCard",
+    "Amount": 15700,
+    "Installments": 1
+  }
+}

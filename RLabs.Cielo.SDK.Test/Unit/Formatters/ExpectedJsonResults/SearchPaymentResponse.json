@@ -1,0 +1,47 @@
+﻿{
+  "MerchantOrderId": "2014111706",
+  "Customer": {
+    "Name": "Comprador Teste",
+    "Address": {}
+  },
+  "Payment": {
+    "ServiceTaxAmount": 0,
+    "Installments": 1,
+    "Interest": "ByMerchant",
+    "Capture": false,
+    "Authenticate": false,
+    "CreditCard": {
+      "CardNumber": "455187******0183",
+      "Holder": "Teste Holder",
+      "ExpirationDate": "12/2030",
+      "SaveCard": false,
+      "Brand": "Visa"
+    },
+    "ProofOfSale": "674532",
+    "AuthorizationCode": "123456",
+    "PaymentId": "24bc8366-fc31-4d6c-8555-17049a836a07",
+    "Type": "CreditCard",
+    "Amount": 15700,
+    "Currency": "BRL",
+    "Country": "BRA",
+    "ExtraDataCollection": [],
+    "Status": 1,
+    "Links": [
+      {
+        "Method": "GET",
+        "Rel": "self",
+        "Href": "https://apiquerysandbox.cieloecommerce.cielo.com.br/1/sales/{PaymentId}"
+      },
+      {
+        "Method": "PUT",
+        "Rel": "capture",
+        "Href": "https://apisandbox.cieloecommerce.cielo.com.br/1/sales/{PaymentId}/capture"
+      },
+      {
+        "Method": "PUT",
+        "Rel": "void",
+        "Href": "https://apisandbox.cieloecommerce.cielo.com.br/1/sales/{PaymentId}/void"
+      }
+    ]
+  }
+}
